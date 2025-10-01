@@ -20,15 +20,22 @@ Tujuan dari tugas ini adalah:
 
 ## Dataset
 
-Dataset yang digunakan adalah movie_dataset.csv, berisi data film dengan beberapa atribut penting, di antaranya:
+Dataset yang digunakan adalah movie_sample_dataset.csv, berisi data film dengan beberapa atribut penting, di antaranya:
 
-- Nama sutradara
-- Durasi film
+- color
+- Nama sutradara (director_name)
+- Durasi film (duration)
 - Pendapatan (gross)
-- Anggaran produksi (budget)
-- Warna (color)
-- Genre
-- Dataset hasil preprocessing disimpan dengan nama movie_dataset_cleaned.csv.
+- Genre (genres)
+- Judul Film (Movie Tittle)
+- Tahun (Tittle year)
+- Bahasa (Language)
+- Negara (Country)
+- Budget
+- imdb_score
+- actors
+- movie_facebook_likes
+
 
 ## Hasil 
 
@@ -50,6 +57,4 @@ Hasil preprocessing menunjukkan bahwa dataset yang awalnya berisi nilai hilang d
 
 ## Rekomendasi
 
-Tahapan preprocessing sebaiknya selalu dilakukan sebelum analisis agar hasil yang diperoleh akurat.
-Untuk dataset yang lebih besar, dapat ditambahkan teknik scaling atau normalization numerik agar model analisis lebih optimal.
-Ke depan, proses cleaning bisa dikembangkan dengan automasi sehingga lebih efisien untuk dataset berskala besar.
+Tahapan preprocessing sebaiknya selalu dilakukan sebelum analisis agar hasil yang diperoleh akurat. Untuk dataset yang lebih besar, dapat ditambahkan teknik scaling atau normalization numerik agar model analisis lebih optimal. Ke depan, proses cleaning bisa dikembangkan dengan automasi sehingga lebih efisien untuk dataset berskala besar.
